@@ -75,7 +75,7 @@ Install ruby. To install ruby in your machine you can follow the steps listed in
 
 Clone this repository to your desired folder:
 ```
-  cd school-library
+  cd rubyCapstone-catalog-of-things
   git clone git@github.com:baqar-abbas/rubyCapstone-catalog-of-things.git
 ```
 
@@ -158,6 +158,6 @@ I would like to thank **![Microverse](https://img.shields.io/badge/Microverse-bl
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/baqar-abbas/rubyCapstone-catalog-of-things/LICENSE.md) licensed.
+This project is [MIT](https://github.com/baqar-abbas/rubyCapstone-catalog-of-things/blob/main/LICENSE.mdd) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
