@@ -3,7 +3,7 @@
 <div align="center">
 
 
-<img src="Ruby_logo.svg" alt="logo" width="140"  height="auto" />
+<img src="Ruby_logo.svg.png" alt="logo" width="140"  height="auto" />
 
   <h1><b> Catalog of Things</b></h3>
 
