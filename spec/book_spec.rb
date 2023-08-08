@@ -6,9 +6,9 @@ describe Book do
   let(:publisher) { 'Peacock' }
   let(:publish_date) { Time.now - (10 * 365 * 24 * 60 * 60) }
   let(:publish_date_recent) { Time.now - (2 * 365 * 24 * 60 * 60) } # 2 years ago
-  let(:book_good_state) { Book.new(publisher, cover_state, publish_date) } # 10 years ago
-  let(:book_bad_state) { Book.new(publisher, 'bad', publish_date_recent) } # 2 years ago with bad cover
-  
+  let(:book_good_state) { Book.new(publisher, publish_date, cover_state) } # 10 years ago
+  let(:book_bad_state) { Book.new(publisher, publish_date_recent, 'bad') } # 2 years ago with bad cover
+
   describe '#initialize' do
     it 'sets publisher and cover_state' do
       expect(book_good_state.publisher).to eq('Peacock')
@@ -22,7 +22,6 @@ describe Book do
       end
     end
     context 'when cover state is bad' do
-
       it 'returns true' do
         expect(book_bad_state.can_be_archived?).to be_truthy
       end
