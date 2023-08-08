@@ -1,4 +1,5 @@
 require 'active_support/core_ext/numeric/time'
+require './book'
 
 # Item class
 class Item
