@@ -50,11 +50,13 @@ This project is console Ruby app built with a team of three developers in collab
 
 ### Key Features <a name="key-features"></a>
 
-For this app the users can chose between 7 options in the command:
-
-    Add Book - Add your favourite book.
-    Add a Music Album - Add your favourite music album.
-    Add a Game - Add your favourite game.
+- **[Console menu]**
+- **[Add label and book]**
+- **[Add genre and music album]**
+- **[Add author and game]**
+- **[Unit test]**
+- **[Save data in file]**
+- **[Load data from file]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -102,12 +104,12 @@ To start the app, run the command:
 👤 **Dilsher Baloch**
 
 - GitHub: [@dilsherB](https://github.com/dilsherB)
-- LinkedIn: [Dilsher ...](https://www.linkedin.com/in/dilsher .../)
+- LinkedIn: [Dilsher Balouch](https://www.linkedin.com/in/dilsher-balouch/)
 
-👤 **K Inolun**
+👤 **K Inoulen**
 
-- GitHub: [@r...](https://github.com/...)
-- LinkedIn: [...](https://www.linkedin.com/in/.../)
+- GitHub: [@lenkon](https://github.com/lenkon)
+- LinkedIn: [K Inoulen Shanongba](https://www.linkedin.com/in/inoulen-konjengbam/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,13 +117,8 @@ To start the app, run the command:
 
 ## 🔮 Future Features <a name="future-features"></a>
 
-    add genre to selected book
-    add movies
-    add genre to selected movie
-    Remove movies
-    Remove a selected book
-    Remove a selected music album
-    Remove a selected game
+- [ ] **[Add more projects]**
+- [ ] **[Add milestones and achievements]**
 
 remove a selected book add genre to selected 
 
