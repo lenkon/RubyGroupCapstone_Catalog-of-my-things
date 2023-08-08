@@ -25,6 +25,15 @@ OPTIONS = {
   10 => :exit
 }.freeze
 
+def option(option)
+  input_method = OPTIONS[option]
+  if input_method
+    send(input_method)
+  else
+    puts 'Invalid input, please input correct number!'
+  end
+end
+
 def main
   loop do
     run
