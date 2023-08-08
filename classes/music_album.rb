@@ -16,4 +16,15 @@ class MusicAlbum < Item
   def move_to_archive
     self.archived = can_be_archived?
   end
+
+  def to_json
+    {
+      id: @id,
+      publish_date: @publish_date,
+      archived: @archived,
+      label: @label,
+      genre: @genre,
+      on_spotify: @on_spotify
+    }
+  end
 end
