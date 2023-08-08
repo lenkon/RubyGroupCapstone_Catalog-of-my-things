@@ -14,4 +14,12 @@ class Genre
     item.genre = self
     puts "Added #{item.title} to #{@name}" if $DEBUG == true
   end
+
+  def to_json
+    {
+      id: @id,
+      name: @name,
+      items: @items.map(&:to_json)
+    }
+  end
 end
