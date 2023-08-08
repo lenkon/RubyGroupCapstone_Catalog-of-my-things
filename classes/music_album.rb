@@ -17,7 +17,7 @@ class MusicAlbum < Item
     self.archived = can_be_archived?
   end
 
-  def to_json
+  def to_json(*_args)
     {
       id: @id,
       publish_date: @publish_date,

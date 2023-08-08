@@ -15,7 +15,7 @@ class Genre
     puts "Added #{item.title} to #{@name}" if $DEBUG == true
   end
 
-  def to_json
+  def to_json(*_args)
     {
       id: @id,
       name: @name,
