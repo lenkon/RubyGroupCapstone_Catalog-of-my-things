@@ -1,7 +1,7 @@
 require_relative 'spec_helper'
-require_relative '../classes/item'
-require_relative '../classes/music_album'
-require_relative '../classes/genre'
+require_relative 'classes/item'
+require_relative 'classes/music_album'
+require_relative 'classes/genre'
 
 describe Genre do
   it 'can add an item' do
