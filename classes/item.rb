@@ -12,10 +12,6 @@ class Item
     @label = label
   end
 
-  def add_label(label)
-    @label = label
-  end
-
   def can_be_archived?
     @publish_date < Time.now - (10 * 365 * 24 * 60 * 60) # 10 years in seconds
   end

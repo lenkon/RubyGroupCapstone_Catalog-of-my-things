@@ -10,7 +10,6 @@ class Book < Item
     @publish_date = publish_date
     @cover_state = cover_state
     @id = id
-    
   end
 
   def can_be_archived?

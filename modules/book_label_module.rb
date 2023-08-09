@@ -1,6 +1,6 @@
 require_relative '../classes/book'
 require_relative '../classes/label'
-require_relative './book_storage'
+require_relative 'book_storage'
 
 module BookLabelModule
   include SaveBookData
