@@ -1,0 +1,20 @@
+[
+  {
+    "publish_date": "01.01.2023",
+    "on_spotify": true,
+    "author": "Ghullam Ali",
+    "album_name": "Ghazals",
+    "genres": [
+      "Love"
+    ]
+  },
+  {
+    "publish_date": "15.02.2023",
+    "on_spotify": false,
+    "author": "M.Rafi",
+    "album_name": "Love Songs",
+    "genres": [
+      "Youth"
+    ]
+  }
+]
