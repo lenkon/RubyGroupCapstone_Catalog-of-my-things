@@ -16,3 +16,16 @@ module SaveData
 
     File.write('./data/musics.json', JSON.pretty_generate(save_music))
   end
+  
+  def save_genre(genres)
+    current_genres = load_genres
+    current_genres += genres
+
+    save_genres = []
+    current_genres.each do |genre|
+      save_genres << { 'name' => genre.name }
+    end
+
+    File.write('./data/genres.json', JSON.pretty_generate(save_genres))
+  end
+end
