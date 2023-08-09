@@ -1,0 +1,29 @@
+[
+  {
+    "first_name" : "first-name1",
+    "last_name" : "last-name1",
+    "Games" : [
+      {
+        "publish_date" : "01-01-2015",
+        "first_name" : "game-name1",
+        "last_played_at" : "08-08-2023"
+      },
+      {
+        "publish_date" : "09-08-2014",
+        "first_name" : "game-name3",
+        "last_played_at" : "01-02-2021"
+      }
+    ]
+  },
+  {
+    "first_name" : "first-name2",
+    "last_name" : "last-name2",
+    "Games" : [
+      {
+        "publish_date" : "07-06-2018",
+        "first_name" : "game-name2",
+        "last_played_at" : "01-03-2019"
+      }
+    ]
+  }
+]

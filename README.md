@@ -20,6 +20,7 @@ You can also add a new book, music album or game. </p>
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -50,14 +51,22 @@ This project is console Ruby app built with a team of three developers in collab
 
 ### Key Features <a name="key-features"></a>
 
-For this app the users can chose between 7 options in the command:
-
-    Add Book - Add your favourite book.
-    Add a Music Album - Add your favourite music album.
-    Add a Game - Add your favourite game.
-
+- **[Console menu]**
+- **[Add label and book]**
+- **[Add genre and music album]**
+- **[Add author and game]**
+- **[Unit test]**
+- **[Save data in file]**
+- **[Load data from file]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Video Presentation Link](https://drive.google.com/file/d/1UmLochYUZwS5Arbar6N1Bsbz3RMEchVc/view)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- GETTING STARTED -->
 
@@ -78,6 +87,17 @@ Clone this repository to your desired folder:
   cd rubyCapstone-catalog-of-things
   git clone git@github.com:baqar-abbas/rubyCapstone-catalog-of-things.git
 ```
+### Install
+
+Install this project with:
+
+for now you don't need any installation to run project if you already followed [Prerequisites](#prerequisites)
+
+and 
+```
+bundle install
+
+```
 
 ### Usage
 
@@ -86,6 +106,14 @@ To start the app, run the command:
   ruby main.rb
 ```
 
+### Run tests
+
+To run tests, run the following command:
+
+```
+rspec spec
+
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,12 +130,12 @@ To start the app, run the command:
 👤 **Dilsher Baloch**
 
 - GitHub: [@dilsherB](https://github.com/dilsherB)
-- LinkedIn: [Dilsher ...](https://www.linkedin.com/in/dilsher .../)
+- LinkedIn: [Dilsher Balouch](https://www.linkedin.com/in/dilsher-balouch/)
 
-👤 **K Inolun**
+👤 **K Inoulen**
 
-- GitHub: [@r...](https://github.com/...)
-- LinkedIn: [...](https://www.linkedin.com/in/.../)
+- GitHub: [@lenkon](https://github.com/lenkon)
+- LinkedIn: [K Inoulen Shanongba](https://www.linkedin.com/in/inoulen-konjengbam/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,13 +143,8 @@ To start the app, run the command:
 
 ## 🔮 Future Features <a name="future-features"></a>
 
-    add genre to selected book
-    add movies
-    add genre to selected movie
-    Remove movies
-    Remove a selected book
-    Remove a selected music album
-    Remove a selected game
+- [ ] **[Add more projects]**
+- [ ] **[Add milestones and achievements]**
 
 remove a selected book add genre to selected 
 
