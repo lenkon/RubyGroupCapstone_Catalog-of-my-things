@@ -6,8 +6,8 @@ describe Book do
   let(:publisher) { 'Peacock' }
   let(:publish_date) { Time.now - (10 * 365 * 24 * 60 * 60) }
   let(:publish_date_recent) { Time.now - (2 * 365 * 24 * 60 * 60) } # 2 years ago
-  let(:book_good_state) { Book.new(publisher, publish_date, cover_state) } # 10 years ago
-  let(:book_bad_state) { Book.new(publisher, publish_date_recent, 'bad') } # 2 years ago with bad cover
+  let(:book_good_state) { Book.new('Book Name', publisher, publish_date, cover_state) }
+  let(:book_bad_state) { Book.new('Book Name', publisher, publish_date_recent, 'bad') } # 2 years ago with bad cover
 
   describe '#initialize' do
     it 'sets publisher and cover_state' do
