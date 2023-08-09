@@ -49,3 +49,16 @@ module LoadData
       []
     end
   end
+
+  def load_genres
+    if File.exist?('./data/genres.json')
+      genres_json = File.read('./data/genres.json')
+      genres_hash = JSON.parse(genres_json)
+      genres_hash.map do |genre_hash|
+        Genre.new(genre_hash['name'])
+      end
+    else
+      []
+    end
+  end
+end
