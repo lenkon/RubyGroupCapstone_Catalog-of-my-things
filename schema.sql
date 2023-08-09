@@ -30,14 +30,14 @@ ALTER TABLE items.music_album
   REFERENCES items.genre(id);
 
 -- Create authors table
-CREATE TABLE author(
+CREATE TABLE items.author(
   id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   first_name VARCHAR(40),
   last_name VARCHAR(40)
 );
 
 -- create games table
-CREATE TABLE game(
+CREATE TABLE items.game(
   id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   publish_date DATE,
   multiplayer VARCHAR(50),
