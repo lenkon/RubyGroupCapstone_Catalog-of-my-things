@@ -23,3 +23,8 @@ CREATE TABLE items.music_album (
   archived BOOLEAN
   label VARCHAR(255)
 );
+
+ALTER TABLE items.music_album
+  ADD CONSTRAINT fk_music_album_genre
+  FOREIGN KEY (genre)
+  REFERENCES items.genre(id);
