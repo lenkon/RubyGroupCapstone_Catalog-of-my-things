@@ -80,6 +80,17 @@ Clone this repository to your desired folder:
   cd rubyCapstone-catalog-of-things
   git clone git@github.com:baqar-abbas/rubyCapstone-catalog-of-things.git
 ```
+### Install
+
+Install this project with:
+
+for now you don't need any installation to run project if you already followed [Prerequisites](#prerequisites)
+
+and 
+```
+bundle install
+
+```
 
 ### Usage
 
@@ -88,6 +99,14 @@ To start the app, run the command:
   ruby main.rb
 ```
 
+### Run tests
+
+To run tests, run the following command:
+
+```
+rspec spec
+
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
