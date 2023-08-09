@@ -14,7 +14,7 @@ module Music
       puts
     end
   end
-  
+
   def create_music_album
     puts 'Enter the music publish date: '
     publish_date = gets.chomp
