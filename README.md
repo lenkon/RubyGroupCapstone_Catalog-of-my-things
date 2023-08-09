@@ -20,6 +20,7 @@ You can also add a new book, music album or game. </p>
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -58,8 +59,14 @@ This project is console Ruby app built with a team of three developers in collab
 - **[Save data in file]**
 - **[Load data from file]**
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Video Presentation Link](https://drive.google.com/file/d/1UmLochYUZwS5Arbar6N1Bsbz3RMEchVc/view)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- GETTING STARTED -->
 
