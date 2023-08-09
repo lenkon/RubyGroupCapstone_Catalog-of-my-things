@@ -29,3 +29,23 @@ module SaveData
     File.write('./data/genres.json', JSON.pretty_generate(save_genres))
   end
 end
+
+module LoadData
+  def load_musics
+    if File.exist?('./data/musics.json')
+      musics_json = File.read('./data/musics.json')
+      musics_hash = JSON.parse(musics_json)
+      musics_hash.map do |music_hash|
+        genres = music_hash['genres'].map { |genre| Genre.new(genre) }
+        MusicAlbum.new(
+          music_hash['publish_date'],
+          music_hash['on_spotify'],
+          genres,
+          music_hash['author'],
+          music_hash['album_name']
+        )
+      end
+    else
+      []
+    end
+  end
