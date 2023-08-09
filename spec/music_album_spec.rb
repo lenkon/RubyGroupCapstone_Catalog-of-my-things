@@ -22,12 +22,12 @@ describe MusicAlbum do
   end
 
   it 'should be able to be archived if on Spotify' do
-    album = MusicAlbum.new('2023-08-09', true, %w[Ghazal Sad], 'Ghulam Ali', 'Ghazal')
+    album = MusicAlbum.new(Time.now, true, %w[Ghazal Sad], 'Ghulam Ali', 'Ghazal')
     expect(album.can_be_archived?).to be(true)
   end
-  
+
   it 'should not be able to be archived if not on Spotify' do
-    album = MusicAlbum.new('2023-08-09', false, %w[Ghazal Sad], 'Ghulam Ali', 'Ghazal')
+    album = MusicAlbum.new(Time.now, false, %w[Ghazal Sad], 'Ghulam Ali', 'Ghazal')
     expect(album.can_be_archived?).to be(false)
   end
 end
