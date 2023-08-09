@@ -9,7 +9,6 @@ describe Book do
   let(:book_good_state) { Book.new('Book Name', publisher, publish_date, cover_state) }
   let(:book_bad_state) { Book.new('Book Name', publisher, publish_date_recent, 'bad') } # 2 years ago with bad cover
 
-
   describe '#initialize' do
     it 'sets publisher and cover_state' do
       expect(book_good_state.publisher).to eq('Peacock')
