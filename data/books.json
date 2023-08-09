@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 [{"name":"C++ Programming","publisher":"Robert lafore","publish_date":"10-10-2000","cover_state":"Good"},{"name":"Lord of the ring","publisher":"Tolkien","publish_date":"10-10-2010","cover_state":"Good"},{"name":"book1","publisher":"publisher1","publish_date":"01/08/2015","cover_state":"Standard"}]
+=======
+[{"name":"C++ Programming","publisher":"Robert lafore","publish_date":"10-10-2000","cover_state":"Good"},{"name":"Lord of the ring","publisher":"Tolkien","publish_date":"10-10-2010","cover_state":"Good"},{"name":"Let us C","publisher":"Yashwant Kanitkar","publish_date":"10-10-1999","cover_state":"Standard"}]
+>>>>>>> 67f2843b9b19fae45da9e06f5c629721de861d83
