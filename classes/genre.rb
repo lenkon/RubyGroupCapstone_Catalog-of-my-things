@@ -1,7 +1,9 @@
 require_relative 'item'
 
+# Genre
 class Genre
-  attr_accessor :name, :items
+  attr_accessor :name
+  attr_reader :items
 
   def initialize(name)
     @name = name
@@ -10,16 +12,8 @@ class Genre
   end
 
   def add_item(item)
-    @item << item
+    @items << item
     item.genre = self
     puts "Added #{item.title} to #{@name}" if $DEBUG == true
-  end
-
-  def to_json(*_args)
-    {
-      id: @id,
-      name: @name,
-      items: @items.map(&:to_json)
-    }
   end
 end
