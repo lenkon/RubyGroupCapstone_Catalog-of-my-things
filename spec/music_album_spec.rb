@@ -5,7 +5,7 @@ require_relative '../classes/music_album'
 
 describe MusicAlbum do
   it 'should require the item file' do
-    expect(Item).to be_defined
+    expect(Item).to be
   end
 
   it 'should inherit from Item' do
@@ -25,7 +25,7 @@ describe MusicAlbum do
     album = MusicAlbum.new('2023-08-09', true, %w[Ghazal Sad], 'Ghulam Ali', 'Ghazal')
     expect(album.can_be_archived?).to be(true)
   end
-
+  
   it 'should not be able to be archived if not on Spotify' do
     album = MusicAlbum.new('2023-08-09', false, %w[Ghazal Sad], 'Ghulam Ali', 'Ghazal')
     expect(album.can_be_archived?).to be(false)
