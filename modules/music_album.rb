@@ -41,3 +41,9 @@ module Music
     @music_album << MusicAlbum.new(publish_date, on_spotify, genres, author, album_name)
     save_music(@music_album)
   end
+
+  def create_genre
+    puts 'Enter the genre name: '
+    genre_name = gets.chomp
+    Genre.new(genre_name)
+  end
